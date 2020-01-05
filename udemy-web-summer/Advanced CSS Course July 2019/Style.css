@@ -1,0 +1,33 @@
+
+img {
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    transition: all 1s ease-in-out;
+    
+}
+img:hover {
+    transform:  translate(20px, 20px)
+}
+.webtext {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   justify-content: space-between;
+   justify-content:space-evenly;
+}
+h1 {
+    border-bottom: 5px solid rgba(255,0,0, .5);
+    border-right: 5px solid rgba(255,0,0, .5);
+    color: darksalmon;
+    width: 400px;
+    text-align: center;
+    margin-top: 0%;
+    box-shadow: 4px 4px 4px;
+    background-color: cornsilk;
+    
+}
+body {
+    background-color:wheat;
+    margin: 0
+}

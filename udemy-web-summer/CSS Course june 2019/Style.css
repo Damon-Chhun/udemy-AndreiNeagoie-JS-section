@@ -1,0 +1,40 @@
+* {
+    text-align: right;
+}
+body {
+    background-image: url(https://cdn.impactinit.com/cdn/x/x@065172238a/smss53/smsimg28/pv/ingimagecontributors/ing_22803_04874.jpg);
+    background-size: cover;
+}
+h2, p {
+    color: rgb(85,0,0);
+    text-align: center; 
+    border: 5px solid rgba(255,0, 0,.25);
+    cursor: pointer;
+}
+
+p {
+    font-style: italic;
+    font-size: 150%;
+    font-weight: 90;
+    line-height: 35px;
+    font-family: "Just Another Hand", cursive;
+    text-decoration: underline;  
+}
+img {
+    float: right;
+}
+footer {
+    clear: both;
+    text-align: center;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+.webtext {
+    border: 2.5px dotted rgba(0,200, 0,.85);
+    color: rgb(85,0,0);
+}
+#yer {
+    background-color: beige;
+}
