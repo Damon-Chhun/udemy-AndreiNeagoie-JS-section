@@ -47,6 +47,10 @@ const filterArray = array.filter((users) => {
 })
 
 //Find out the total score of all users using reduce
+// ANSWER: 
+const totalScore = array.reduce((accumulator, users) => {
+  return accumulator + users.score 
+}, 0)
 
 // (1), what is the value of i?
 // (2), Make this map function pure:
@@ -55,6 +59,20 @@ const newArray = arrayNum.map((num, i) => {
 	console.log(num, i);
 	alert(num);
 	return num * 2;
+}
+// ANSWER: i = index of array
+const arrayNum = [1, 2 , 4, 5, 8, 9]
+const pureArray = arrayNum.map((num) => {
+  return num * 2
 })
+console.log('pure map', pureArray)
 
 //BONUS: create a new list with all user information, but add "!" to the end of each items they own.
+//ANSWER:
+const bonusArray = array.map((users) => {
+  newUserItems = users.items.map((item) => {
+      return item + '!'
+  })
+  return newUserItems
+});
+Console.log(bonusArray);
