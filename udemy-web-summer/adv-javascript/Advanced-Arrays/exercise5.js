@@ -66,6 +66,7 @@ const pureArray = arrayNum.map((num) => {
   return num * 2
 })
 console.log('pure map', pureArray)
+
 //BONUS: create a new list with all user information, but add "!" to the end of each items they own.
 //ANSWER:
 const bonusArray = array.map((users) => {
